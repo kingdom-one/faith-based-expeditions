@@ -19,8 +19,8 @@
 		}
 	},
 	"scripts": {
-		"phpcs": "phpcs . ./inc/ --extensions=php --ignore=*/vendor/*,*/build/* ",
-		"phpcbf": "phpcbf . ./inc/ --extensions=php --ignore=*/vendor/*,*/build/* "
+		"phpcs": "phpcs . ./includes/ --extensions=php --ignore=*/vendor/*,*/build/* ",
+		"phpcbf": "phpcbf . ./includes/ --extensions=php --ignore=*/vendor/*,*/build/* "
 	},
 	"require-dev": {
 		"wp-coding-standards/wpcs": "*",

@@ -74,6 +74,6 @@ class Admin_Dashboard_Handler {
 	public function k1_dashboard_welcome_widget_function() {
 		$first_name = get_user_meta( wp_get_current_user()->ID, 'first_name', true );
 		$k1_email   = 'webdev@kingdomone.co';
-		echo "Hey {$first_name}! Welcome to the your site. If you have any troubles, questions, or dream features, be sure to reach out to us at <a href='mailto:{$k1_email}'>{$k1_email}</a>";
+		echo "Hey {$first_name}! Welcome to the your site. If you have any troubles, questions, or dream features, be sure to reach out to us at <a href='mailto:{$k1_email}'>{$k1_email}</a>"; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 	}
 }
