@@ -27,11 +27,11 @@ $utilities: (
 @each $utility, $size in $utilities {
 	.#{$utility} {
 		font-size: var($size) !important;
+		text-wrap: pretty;
 
 		& :is(h1, h2, h3, h4, h5, h6) {
 			font-size: var($size) !important;
 			line-height: var(--wp--custom--line-height);
-			text-wrap: pretty;
 		}
 	}
 }
