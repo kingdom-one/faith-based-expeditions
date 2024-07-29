@@ -31,11 +31,13 @@ $utilities: (
 		& :is(h1, h2, h3, h4, h5, h6) {
 			font-size: var($size) !important;
 			line-height: var(--wp--custom--line-height);
+			text-wrap: pretty;
 		}
 	}
 }
 
 %base-text {
+	text-wrap: pretty;
 	font-size: var(--wp--preset--font-size--base);
 	line-height: var(--wp--custom--line-height);
 }
@@ -46,32 +48,31 @@ li {
 }
 
 .x-root .x-site {
-	.x-text-headline {
+	:where(.x-text-headline) {
 		@each $heading, $size in $headings {
 			#{$heading} {
 				font-size: var($size);
 				line-height: var(--wp--custom--line-height);
+				text-wrap: pretty;
 			}
 		}
 	}
 
-	.x-content {
+	:where(.x-content) {
 		@extend %base-text;
 	}
-	.x-text-content-text {
-		.x-text-content-text-primary {
-			&:where(:not(h1, h2, h3, h4, h5, h6)) {
-				@extend %base-text;
-			}
-		}
-	}
 
-	.x-anchor {
-		&:not(.x-anchor-button) {
+	:where(.x-text-content-text) {
+		:where(.x-text-content-text-primary:not(h1, h2, h3, h4, h5, h6)) {
 			@extend %base-text;
 		}
 	}
-	.x-anchor-content {
+
+	:where(.x-anchor:not(.x-anchor-button)) {
+		@extend %base-text;
+	}
+    
+	:where(.x-anchor-content) {
 		.x-anchor-text-primary {
 			@extend %base-text;
 		}

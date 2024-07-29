@@ -10,32 +10,32 @@
 			"defaultGradients": false,
 			"defaultPalette": false,
 			"palette": [
-            {
-                "slug":"green",
-                "color":"#18312e",
-                "name":"Green"
-            },
-            {
-                "slug":"green-2",
-                "color":"#374836",
-                "name":"Green 2"
-            },
-            {
-                "slug":"gold",
-                "color":"#f9d790",
-                "name":"Gold"
-            },
-            {
-                "slug":"white",
-                "color":"#fff",
-                "name":"White"
-            },
-            {
-                "slug":"black",
-                "color":"#000",
-                "name":"Black"
-            }
-        ],
+				{
+					"slug": "green",
+					"color": "#18312e",
+					"name": "Green"
+				},
+				{
+					"slug": "green-2",
+					"color": "#374836",
+					"name": "Green 2"
+				},
+				{
+					"slug": "gold",
+					"color": "#f9d790",
+					"name": "Gold"
+				},
+				{
+					"slug": "white",
+					"color": "#fff",
+					"name": "White"
+				},
+				{
+					"slug": "black",
+					"color": "#000",
+					"name": "Black"
+				}
+			],
 			"text": true,
 			"heading": true,
 			"button": true
@@ -101,7 +101,10 @@
 			]
 		},
 		"custom": {
-			"lineHeight": "calc(2px + 2ex + 2px)"
+			"lineHeight": "calc(2px + 2ex + 2px)",
+			"transitionTiming": ".15s",
+			"transitionEasing": "ease-in-out",
+			"transition": "var(--wp--custom--transition-timing) var(--wp--custom--transition-easing)"
 		}
 	},
 	"styles": {
