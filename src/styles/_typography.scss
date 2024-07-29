@@ -48,7 +48,7 @@ li {
 }
 
 .x-root .x-site {
-	:where(.x-text-headline) {
+	.x-text-headline {
 		@each $heading, $size in $headings {
 			#{$heading} {
 				font-size: var($size);
@@ -58,21 +58,25 @@ li {
 		}
 	}
 
-	:where(.x-content) {
+	.x-content {
 		@extend %base-text;
 	}
 
-	:where(.x-text-content-text) {
-		:where(.x-text-content-text-primary:not(h1, h2, h3, h4, h5, h6)) {
+	.x-text-content-text {
+		.x-text-content-text-primary {
+			&:where(:not(h1, h2, h3, h4, h5, h6)) {
+				@extend %base-text;
+			}
+		}
+	}
+
+	.x-anchor {
+		&:where(:not(.x-anchor-button)) {
 			@extend %base-text;
 		}
 	}
 
-	:where(.x-anchor:not(.x-anchor-button)) {
-		@extend %base-text;
-	}
-    
-	:where(.x-anchor-content) {
+	.x-anchor-content {
 		.x-anchor-text-primary {
 			@extend %base-text;
 		}
