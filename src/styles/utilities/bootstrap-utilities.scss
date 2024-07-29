@@ -1,8 +1,22 @@
 // Custom.scss
 
 @import "bootstrap/scss/functions";
+
+$grid-breakpoints: (
+	xs: 0,
+	sm: 480px,
+	md: 767px,
+	lg: 979px,
+	xl: 1200px,
+);
+
+// Options:
+$enable-dark-mode: false;
+$enable-deprecation-messages: false;
+$enable-validation-icons: false;
+
 @import "bootstrap/scss/variables";
-@import "bootstrap/scss/variables-dark";
+// @import "bootstrap/scss/variables-dark";
 @import "bootstrap/scss/maps";
 @import "bootstrap/scss/mixins";
 @import "bootstrap/scss/utilities";
