@@ -4,6 +4,10 @@ A custom child theme of [Pro Theme by Themeco](https://theme.co/pro).
 
 # Changelog
 
+## 0.2.0
+
+-   Implemented the Join a Tour redirect with Javascript.
+
 ## 0.1.2
 
 -   Mirror WordPress layouts (content and wide sizes) in Cornerstone's layout (`.max` and `.width` classes)
