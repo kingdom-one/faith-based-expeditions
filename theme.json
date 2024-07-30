@@ -104,7 +104,8 @@
 			"lineHeight": "calc(2px + 2ex + 2px)",
 			"transitionTiming": ".15s",
 			"transitionEasing": "ease-in-out",
-			"transition": "var(--wp--custom--transition-timing) var(--wp--custom--transition-easing)"
+			"transition": "var(--wp--custom--transition-timing) var(--wp--custom--transition-easing)",
+			"gutters": "1.25rem"
 		}
 	},
 	"styles": {
