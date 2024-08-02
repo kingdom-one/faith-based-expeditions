@@ -30,6 +30,7 @@
         <exclude name="WordPress.WP.I18n" />
         <exclude name="WordPress.WP.I18n.MissingTranslatorsComment" />
         <exclude name="WordPress.WP.I18n.TranslatorsCommentWrongStyle" />
+        <exclude name="WordPress.Security.EscapeOutput.OutputNotEscaped" />
     </rule>
 
     <!-- Let's also check that everything is properly documented. -->

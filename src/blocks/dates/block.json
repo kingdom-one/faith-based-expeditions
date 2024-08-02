@@ -1,0 +1,26 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"version": "0.1.0",
+	"name": "kingdomone/tour-dates",
+	"title": "Tour Dates",
+	"category": "text",
+	"icon": "calendar",
+	"description": "Display a list of tour dates.",
+	"editorScript": "file:./index.tsx",
+	"style": "file:./style-index.css",
+	"supports": {
+		"typography": {
+			"fontSize": true,
+			"lineHeight": false,
+			"textAlign": true,
+			"appearance": true
+		},
+		"spacing": {
+			"padding": true,
+			"margin": true,
+			"blockGap": true
+		}
+	},
+	"render": "file:./render.php"
+}

@@ -18,7 +18,7 @@
 	"author": "Kingdom One",
 	"license": "GPL-2.0-or-later",
 	"devDependencies": {
-		"@wordpress/scripts": "^28.3.0",
+		"@wordpress/scripts": "^28.4.0",
 		"bootstrap": "^5.3.3",
 		"eslint-config-react-app": "^7.0.1"
 	},
