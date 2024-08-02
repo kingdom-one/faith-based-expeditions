@@ -14,6 +14,12 @@ If you're looking to make changes and you're not a developer with Kingdom One, `
 
 # Changelog
 
+## 0.3.1
+
+-   Updates phpcs rules
+-   Added new `Tour Dates` Block
+-   Updated the `Egypt` pattern to use new block
+
 ## 0.3.0
 
 -   Updated roles to allow only administrators to edit locked blocks.
