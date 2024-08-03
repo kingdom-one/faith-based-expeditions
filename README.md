@@ -14,6 +14,10 @@ If you're looking to make changes and you're not a developer with Kingdom One, `
 
 # Changelog
 
+## 1.0.1
+
+-   Update the Tour Dates block to render shortened date
+
 ## 1.0.0
 
 -   Updates phpcs rules
