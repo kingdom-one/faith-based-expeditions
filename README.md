@@ -14,11 +14,13 @@ If you're looking to make changes and you're not a developer with Kingdom One, `
 
 # Changelog
 
-## 0.3.1
+## 1.0.0
 
 -   Updates phpcs rules
 -   Added new `Tour Dates` Block
--   Updated the `Egypt` pattern to use new block
+-   Renamed the `egypt` pattern to `tour-content` and updated the pattern to use the new tour dates block
+-   Disable discussion (comments) with code and hide it from admin menus
+-   Register 2 new image sizes: `gallery-full` (4k) and `gallery-thumbnail` (600px square.)
 
 ## 0.3.0
 
