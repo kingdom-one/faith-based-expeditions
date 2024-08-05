@@ -36,10 +36,23 @@ $utilities: (
 	}
 }
 
-%base-text {
+%headings {
 	text-wrap: pretty;
-	font-size: var(--wp--preset--font-size--base);
 	line-height: var(--wp--custom--line-height);
+	font-family: "Cormorant", sans-serif;
+}
+
+@each $heading, $size in $headings {
+	#{$heading},
+	.#{$heading} {
+		@extend %headings;
+		font-size: var($size);
+	}
+}
+
+%base-text {
+	@extend %headings;
+	font-size: var(--wp--preset--font-size--base);
 }
 
 p,
@@ -51,9 +64,8 @@ li {
 	.x-text-headline {
 		@each $heading, $size in $headings {
 			#{$heading} {
+				@extend %headings;
 				font-size: var($size);
-				line-height: var(--wp--custom--line-height);
-				text-wrap: pretty;
 			}
 		}
 	}

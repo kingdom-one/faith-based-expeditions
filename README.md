@@ -14,6 +14,11 @@ If you're looking to make changes and you're not a developer with Kingdom One, `
 
 # Changelog
 
+## 1.0.2
+
+-   Define the `alignwide` class to match the `wide size` WP variable set in `theme.json`
+-   Define font families for the site.
+
 ## 1.0.1
 
 -   Update the Tour Dates block to render shortened date
