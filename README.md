@@ -14,6 +14,10 @@ If you're looking to make changes and you're not a developer with Kingdom One, `
 
 # Changelog
 
+## 1.2.1
+
+-   Fix the patterns directory
+
 ## 1.2.0
 
 -   Add default styling to CF7 Forms
