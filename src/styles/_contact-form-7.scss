@@ -1,0 +1,28 @@
+@use "./mixins" as m;
+
+form:where(.wpcf7-form) {
+	.wpcf7-not-valid-tip {
+		font-size: var(--wp--preset--font-size--xs);
+		line-height: var(--wp--custom--line-height);
+		color: red;
+		font-weight: 700;
+	}
+
+	button,
+	input[type="submit"] {
+		background-color: var(--wp--preset--color--green);
+		border: 2px solid var(--wp--preset--color--gold);
+		color: var(--wp--preset--color--gold);
+		font-size: var(--wp--preset--font-size--small);
+		line-height: var(--wp--custom--line-height);
+		padding: 1.35rem 1.8rem;
+		transition:
+			color var(--wp--custom--transition),
+			background-color var(--wp--custom--transition);
+
+		@include m.interaction() {
+			background-color: var(--wp--preset--color--gold);
+			color: var(--wp--preset--color--green);
+		}
+	}
+}
