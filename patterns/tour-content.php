@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Tour Content
+ * Title: Tour Content
  * Slug: fbe/tour-content
  * Categories: tour
  * Post Types: tour
