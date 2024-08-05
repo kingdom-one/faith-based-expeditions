@@ -14,6 +14,10 @@ If you're looking to make changes and you're not a developer with Kingdom One, `
 
 # Changelog
 
+## 1.1.0
+
+-   Add Bootstrap grid classes (rows and cols) to the utilities file
+
 ## 1.0.3
 
 -   update how font family is declared to be less specific

@@ -17,8 +17,12 @@ $enable-validation-icons: false;
 
 @import "bootstrap/scss/variables";
 // @import "bootstrap/scss/variables-dark";
+
 @import "bootstrap/scss/maps";
 @import "bootstrap/scss/mixins";
+
+@import "bootstrap/scss/grid";
+// @import "bootstrap/scss/helpers";
 @import "bootstrap/scss/utilities";
 
 // Remove multiple utilities with a comma-separated list
