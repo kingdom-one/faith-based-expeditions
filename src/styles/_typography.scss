@@ -39,7 +39,6 @@ $utilities: (
 %headings {
 	text-wrap: pretty;
 	line-height: var(--wp--custom--line-height);
-	font-family: "Cormorant", sans-serif;
 }
 
 @each $heading, $size in $headings {
@@ -47,6 +46,7 @@ $utilities: (
 	.#{$heading} {
 		@extend %headings;
 		font-size: var($size);
+        font-family: "Cormorant", sans-serif;
 	}
 }
 
@@ -58,6 +58,7 @@ $utilities: (
 p,
 li {
 	@extend %base-text;
+    font-family: "Cormorant", sans-serif;
 }
 
 .x-root .x-site {

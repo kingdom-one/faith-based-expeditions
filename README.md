@@ -14,6 +14,10 @@ If you're looking to make changes and you're not a developer with Kingdom One, `
 
 # Changelog
 
+## 1.0.3
+
+-   update how font family is declared to be less specific
+
 ## 1.0.2
 
 -   Define the `alignwide` class to match the `wide size` WP variable set in `theme.json`
