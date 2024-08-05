@@ -24,3 +24,8 @@
 		margin-inline: calc((var(--wp--custom--gutters) / 2) * -1);
 	}
 }
+
+.alignwide {
+	max-width: var(--wp--style--global--wide-size);
+	margin-inline: auto;
+}
