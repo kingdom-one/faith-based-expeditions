@@ -14,9 +14,13 @@ If you're looking to make changes and you're not a developer with Kingdom One, `
 
 # Changelog
 
+## 1.2.3
+
+-   Provide base styling for WordPress `details` block
+
 ## 1.2.2
 
-- Update line height variable in `theme.json` to work better with "Cormorant" serif font.
+-   Update line height variable in `theme.json` to work better with "Cormorant" serif font.
 
 ## 1.2.1
 
