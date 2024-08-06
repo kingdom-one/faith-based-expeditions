@@ -2,3 +2,6 @@
 @use "./typography";
 @use "./layout";
 @use "./contact-form-7";
+
+// WP Core Block Overrides
+@use "./core-overrides/details";
