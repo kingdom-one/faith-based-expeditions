@@ -14,6 +14,10 @@ If you're looking to make changes and you're not a developer with Kingdom One, `
 
 # Changelog
 
+## 1.3.0
+
+- Added 2 new patterns, Tour Leader and Flight Schedule, to the tours category
+
 ## 1.2.3
 
 -   Provide base styling for WordPress `details` block
