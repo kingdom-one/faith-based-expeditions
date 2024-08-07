@@ -10,7 +10,7 @@
  */
 
 ?>
-<!-- wp:group {"metadata":{"name":"Tour Leader"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"default"}} -->
+<!-- wp:group {"metadata":{"name":"Tour Leader","categories":["tour"],"patternName":"fbe/tour-leader"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide">
 	<!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} -->
 	<h2 class="wp-block-heading has-text-align-center" style="margin-bottom:var(--wp--preset--spacing--40)">Tour Leader</h2>
@@ -18,7 +18,7 @@
 
 	<!-- wp:media-text {"mediaId":7370,"mediaLink":"https://nicko45.sg-host.com/tour/cht525je/jeremy4site-3/","mediaType":"image"} -->
 	<div class="wp-block-media-text is-stacked-on-mobile">
-		<figure class="wp-block-media-text__media"><img src="" alt="" class="wp-image-7370 size-full" /></figure>
+		<figure class="wp-block-media-text__media"></figure>
 		<div class="wp-block-media-text__content">
 			<!-- wp:paragraph {"placeholder":"Content…"} -->
 			<p><strong>Leader Name</strong> — Leader bio here</p>
