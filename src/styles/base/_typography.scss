@@ -46,7 +46,7 @@ $utilities: (
 	.#{$heading} {
 		@extend %headings;
 		font-size: var($size);
-        font-family: "Cormorant", sans-serif;
+		font-family: var(--wp--custom--font-headings);
 	}
 }
 
@@ -58,7 +58,8 @@ $utilities: (
 p,
 li {
 	@extend %base-text;
-    font-family: "Cormorant", sans-serif;
+	font-family: var(--wp--custom--font-body);
+	font-weight: 300;
 }
 
 .x-root .x-site {

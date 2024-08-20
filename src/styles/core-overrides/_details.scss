@@ -1,6 +1,21 @@
+%summary_styles {
+	font-size: var(--wp--preset--font-size--small);
+	font-weight: 700;
+	color: var(--wp--preset--color--gold);
+}
+
 details.wp-block-details {
+	margin-block: 2rem !important;
+
 	summary {
-		font-size: var(--wp--preset--font-size--small);
-		font-weight: 700;
+		@extend %summary_styles;
+
+		& * {
+			@extend %summary_styles;
+		}
+
+		& ~ * {
+			font-family: var(--wp--custom--font-body);
+		}
 	}
 }
