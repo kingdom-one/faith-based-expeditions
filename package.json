@@ -1,6 +1,6 @@
 {
 	"name": "k1-pro-child-theme-template",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A template for generating a child theme for client sites.",
 	"prettier": "@wordpress/prettier-config",
 	"browserslist": [
@@ -17,17 +17,16 @@
 	},
 	"author": "Kingdom One",
 	"license": "GPL-2.0-or-later",
+    "dependencies": {
+		"normalize.css": "^8.0.1"
+	},
 	"devDependencies": {
-		"@wordpress/scripts": "^28.4.0",
-		"bootstrap": "^5.3.3",
-		"eslint-config-react-app": "^7.0.1"
+		"@wordpress/scripts": "^28.5.0",
+		"bootstrap": "^5.3.3"
 	},
 	"overrides": {
 		"lighthouse": "^12.1.0",
 		"puppeteer-core": "^22.13.1",
 		"ws": "^8.18.0"
-	},
-	"dependencies": {
-		"normalize.css": "^8.0.1"
 	}
 }

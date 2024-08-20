@@ -14,9 +14,16 @@ If you're looking to make changes and you're not a developer with Kingdom One, `
 
 # Changelog
 
+## 1.3.2
+
+-   Refactor the `styles` folder to have more directories
+-   Update the `summary/details` elements' stylings
+-   Added 2 new WP Custom variables, `font-body` and `font-headings`
+-   Updated typography to use Roboto for body and Cormorant for headings (as opposed to Cormorant everywhere)
+
 ## 1.3.0
 
-- Added 2 new patterns, Tour Leader and Flight Schedule, to the tours category
+-   Added 2 new patterns, Tour Leader and Flight Schedule, to the tours category
 
 ## 1.2.3
 

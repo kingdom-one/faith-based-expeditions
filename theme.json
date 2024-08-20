@@ -105,7 +105,9 @@
 			"transitionTiming": ".15s",
 			"transitionEasing": "ease-in-out",
 			"transition": "var(--wp--custom--transition-timing) var(--wp--custom--transition-easing)",
-			"gutters": "1.25rem"
+			"gutters": "1.25rem",
+			"fontBody": "'Roboto', sans-serif",
+			"fontHeadings": "'Cormorant', serif"
 		}
 	},
 	"styles": {
@@ -120,12 +122,14 @@
 			"core/paragraph": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--base)",
-					"lineHeight": "var(--wp--custom--line-height)"
+					"lineHeight": "var(--wp--custom--line-height)",
+					"fontFamily": "var(--wp--custom--font-body)"
 				}
 			},
 			"core/heading": {
 				"typography": {
-					"lineHeight": "var(--wp--custom--line-height)"
+					"lineHeight": "var(--wp--custom--line-height)",
+					"fontFamily": "var(--wp--custom--font-headings)"
 				}
 			}
 		},
