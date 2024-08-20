@@ -14,6 +14,12 @@ If you're looking to make changes and you're not a developer with Kingdom One, `
 
 # Changelog
 
+## 1.4.0
+
+-   Added fonts to version control
+-   Updated theme.json to use newly added fonts and proper [`theme.json` syntax](https://developer.wordpress.org/themes/global-settings-and-styles/styles/using-presets/#referencing-custom-presets).
+-   Updated old references in css to custom font variable to newly registered preset font variable.
+
 ## 1.3.2
 
 -   Refactor the `styles` folder to have more directories

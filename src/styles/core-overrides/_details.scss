@@ -15,7 +15,7 @@ details.wp-block-details {
 		}
 
 		& ~ * {
-			font-family: var(--wp--custom--font-body);
+			font-family: var(--wp--preset--font-family--body);
 		}
 	}
 }
